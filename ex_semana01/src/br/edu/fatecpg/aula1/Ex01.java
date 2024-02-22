@@ -15,7 +15,7 @@ public class Ex01 {
 			System.out.println("Número positivo");
 		} else {
 			System.out.println("Número negativo");
-		}
+		}ler.close();
 	}
 
 }
