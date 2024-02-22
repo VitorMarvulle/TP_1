@@ -23,15 +23,17 @@ public class Ex09 {
         System.out.println("Digite o último nome: ");
         String ult_nome = ler.nextLine();
 		
-        for(int i=0; i<nomes.length; i++) {
+        for(int i=0; i<nomes.length;) {
         	if (nomes[i].equals((ult_nome))) {
         		System.out.println("O nome "+nomes[i]+ " é igual a " +ult_nome);
         	}
         	else  {
         		System.out.println("Não possui nomes iguais");
+        		
         	}
         break;
-        }
+        }ler.close();
+        
 	}
 
 }

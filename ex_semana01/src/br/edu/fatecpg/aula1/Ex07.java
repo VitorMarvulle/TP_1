@@ -23,6 +23,7 @@ public class Ex07 {
 		
 		else {
 			System.out.println("Pessoa idosa");
+			ler.close();
 		}
 		
 	}

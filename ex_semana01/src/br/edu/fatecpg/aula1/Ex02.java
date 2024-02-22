@@ -22,6 +22,7 @@ public class Ex02 {
 		} else if(num1<num2) {
 			System.out.println("Os números são diferentes e " + num2 + " é maior que " + num1);
 		}
+		ler.close();
 	}
 		
 	}

@@ -22,7 +22,7 @@ public class Ex10 {
 			else {
 			
 				System.out.println("Senha incorreta, tente novamente!");
-				}
+				}ler.close();
 
 			}
 		}

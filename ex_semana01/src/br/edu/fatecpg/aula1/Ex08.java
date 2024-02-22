@@ -19,6 +19,7 @@ public class Ex08 {
 			
 			}
 		System.out.println("O resultado da soma dos ímpares é: "+res);
+		ler.close();
 		} 
 	}
 

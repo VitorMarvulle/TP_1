@@ -18,6 +18,7 @@ public class Ex06 {
 			System.out.println(i);
 		}
 		System.out.println("O fatorial de "+num+" é: "+res);
+		ler.close();
 
 	}
 

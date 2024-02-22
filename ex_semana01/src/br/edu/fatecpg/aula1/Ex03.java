@@ -42,7 +42,7 @@ public class Ex03 {
             System.out.println("Valor não corresponde as opções");
         break;
         
-        }
+        }ler.close();
         
 	}
 

@@ -17,7 +17,7 @@ public class Ex05 {
 			System.out.println("Número par");
 		} else {
 			System.out.println("Número ímpar");
-		}
+		}ler.close();
 	}
 
 }

@@ -15,7 +15,7 @@ public class Ex04 {
 		
 		for (int i=1; i<11;i++) {
 			System.out.println(num1 + " x " + i + " = " +num1*i);
-			}	
+			}ler.close();
 	}
 
 }
