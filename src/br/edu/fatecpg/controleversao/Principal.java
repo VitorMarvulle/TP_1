@@ -7,6 +7,11 @@ public class Principal {
 	
 		System.out.println("Hello World!");
 		System.out.println("Hello GitHub!");
+		
+		Somar calc = new Somar();
+		System.out.println(calc.soma(20,10)); 
+		
+		
 	}
 
 }
