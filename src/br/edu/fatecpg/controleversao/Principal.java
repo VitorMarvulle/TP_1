@@ -8,6 +8,7 @@ public class Principal {
 		double num1, num2, res=0;
 		Scanner scan = new Scanner(System.in);
 		Calculadora calc = new Calculadora();
+		Porcentagem porcento = new Porcentagem();
 		
 		while(true) {
 		System.out.println("Digite a operação desejada: \n 1 - SOMA" + "\n 2 - SUBTRAÇÃO" + "\n 3 - MULTIPLICAÇÃO" + "\n 4 - DIVISÃO" + "\n 5 - SAIR");
@@ -36,12 +37,14 @@ public class Principal {
 			res=calc.div(num1,num2);
 		break;
 		
-		} System.out.println(res);
+		} 
+		
+		System.out.println(res);
 		
 
 		
 		}
-
+		System.out.println(porcento.regraDeTres(100, 50, 50));
 	}
 
 }
